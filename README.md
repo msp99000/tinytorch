@@ -113,7 +113,7 @@ This repository contains research-grade PoC code. Production deployment requires
 
 ## 🤝 Author & Contact
 
-* **Developer**: Mikee ([@msp99000](https://github.com/msp99000))
+* **Developer**: Manpreet Singh ([@msp99000](https://github.com/msp99000))
 * **Status**: Active PoC | Accepting collaborators & clients
 * **Contact**: Available on request (or via LinkedIn)
 
