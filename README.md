@@ -37,3 +37,90 @@ The goal of this project is to demonstrate:
        │                                          │
        │                                          └─────▶ Student Model (compressed)
        └────────────────────────────────────────────────▶ Evaluation & Comparison
+````
+
+---
+
+## 📁 Project Structure
+
+```bash
+tinytorch/
+├── pruning/
+│   └── prune_model.py
+├── distillation/
+│   └── distill_pipeline.py
+├── qlora/
+│   └── qlora_quantize.py
+├── inference/
+│   └── run_inference.py
+├── notebooks/
+│   └── demo_colab_pipeline.ipynb
+├── assets/
+│   └── diagrams, images, etc.
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🧪 Demo Notebook
+
+> A complete walk-through notebook will be shared \[via Colab/Kaggle] for demo purposes.
+
+* Lightweight training with pruning & distillation
+* QLoRA quantization with memory benchmarks
+* Inference speed & accuracy comparison
+* Edge-readiness discussion
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/msp99000/tinytorch.git
+cd tinytorch
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 📅 Next Steps
+
+* [ ] Add training logs and evaluation metrics
+* [ ] Set up Weights & Biases (optional)
+* [ ] Explore ONNX + TensorRT for final edge deployment
+* [ ] Wrap inference into FastAPI + Streamlit dashboard
+
+---
+
+## 🔐 Note for Collaborators & Clients
+
+This repository contains research-grade PoC code. Production deployment requires:
+
+* Proper dataset licensing
+* Formal engagement via signed SOW
+* Optimized compute infrastructure (e.g., Jetson, AWS Inferentia, etc.)
+
+---
+
+## 🤝 Author & Contact
+
+* **Developer**: Mikee ([@msp99000](https://github.com/msp99000))
+* **Status**: Active PoC | Accepting collaborators & clients
+* **Contact**: Available on request (or via LinkedIn)
+
+---
+
+## 📜 License
+
+This project is under development. Licensing will be added after the PoC phase.
+
+
